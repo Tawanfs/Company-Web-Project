@@ -9,5 +9,6 @@ with st.form(key='email_form'):
     user_submited = st.form_submit_button("Submit")
     if user_submited:
         funcs.send_mail(message=f"{user_choice}\n {user_message}\n {user_email}")
+        st.info("The Email Was Sent Successfully")
 
 
