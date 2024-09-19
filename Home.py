@@ -3,8 +3,9 @@ import pandas as pd
 
 st.set_page_config(layout="wide")
 
-st.title("The Best Company")
-st.text("desc")
+st.title("Tech Innovators Inc.")
+st.write("""Tech Innovators Inc. is a leading software development company dedicated to delivering cutting-edge technology solutions. Our team of skilled developers, designers, and engineers work collaboratively to create innovative software products that drive business success.
+""")
 st.header("Our Team")
 
 col1, col2, col3 = st.columns(3)
